@@ -1,14 +1,14 @@
 import React from "react";
-import Card from "./Card";
+import CardItem from "./Card";
 
 function MainComponent() {
   return (
     <div>
-      <h1>Hello IUT</h1>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <h1 style={{ textAlign: "center" }}>Popular Products</h1>
+      <CardItem />
+      <CardItem />
+      <CardItem />
+      <CardItem />
     </div>
   );
 }
