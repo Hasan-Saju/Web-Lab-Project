@@ -15,24 +15,38 @@ function Card() {
   return (
     <div>
       {products.map((p) => (
-        <div>
+        <div
+          style={{
+            width: "300px",
+            marginLeft: "10px",
+            border: "1px solid",
+            paddingLeft: "50px",
+          }}
+        >
           <br></br>
-          <img src={p.productImageUrl} width="150" height="200"></img>,
-          <p>
-            <font size="8">{p.title}</font>
-          </p>
-          <p>
-            <font color="blue" size="4">
-              {p.author}
-            </font>
-          </p>
           <p>
             <button
               backgroud-color="#4CAF50"
               onClick={increamentVotes.bind(this, p)}
             >
-              <font size="5">Votes: {p.votes}</font>
+              <font size="5">{p.votes}</font>
             </button>
+          </p>
+          <img
+            src={process.env.PUBLIC_URL + p.productImageUrl}
+            width="200"
+            height="150"
+          ></img>
+          ,
+          <p>
+            <b>
+              <font size="6">{p.title}</font>
+            </b>
+          </p>
+          <p>
+            <font color="blue" size="4">
+              {p.author}
+            </font>
           </p>
           <p>
             <font size="4.5">{p.description}</font>
@@ -46,7 +60,11 @@ function Card() {
             <font size="4">
               {" "}
               Submitted By:{" "}
-              <img src={p.submitterAvatarUrl} width="50" height="50"></img>
+              <img
+                src={window.location.origin + p.submitterAvatarUrl}
+                width="50"
+                height="50"
+              ></img>
             </font>
           </p>
           <p>

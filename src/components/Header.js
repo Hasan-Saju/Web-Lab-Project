@@ -4,6 +4,8 @@ function Header() {
   return (
     <div>
       <font size="7">Popular Products</font>
+      <br />
+      <br />
     </div>
   );
 }

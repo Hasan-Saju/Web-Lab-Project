@@ -1,56 +1,43 @@
 const products = [
   {
     id: 1,
-    title: "React",
-    author: "By Robin Wieruch",
-    description:
-      "One of the best book to learn and implement React in real life projects.",
+    author: "Yellow Pail",
+    description: "On-demand sand castle construction expertise.",
     url: "#",
-    votes: 21,
+    votes: 10,
     price: 150,
-    submitterAvatarUrl:
-      "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2NTQ1NTM2OTM2MDYwMTQ2/charles-dickens.jpg",
-    productImageUrl:
-      "https://m.media-amazon.com/images/I/511-vIg1HaL._AC_UY327_FMwebp_QL65_.jpg",
+    submitterAvatarUrl: "/images/avatars/daniel.jpg",
+    productImageUrl: "/images/products/image-aqua.png",
   },
   {
     id: 2,
-    title: "Computer Vision",
-    author: " By Richard Harley",
-    description:
-      "One of the best selling Computer Vision book. Help to kickstart your career as Computer Vision Scientist.",
+    author: "Supermajority: The Fantasy Congress League",
+    description: "Earn points when your favorite politicians pass legislation.",
     url: "#",
-    votes: 18,
-    price: 200,
-    submitterAvatarUrl:
-      "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2NTQ1NTM2OTM2MDYwMTQ2/charles-dickens.jpg",
-    productImageUrl:
-      "https://m.media-amazon.com/images/I/61TKTkmD4FL._AC_UY327_FMwebp_QL65_.jpg",
+    votes: 17,
+    price: 180,
+    submitterAvatarUrl: "/images/avatars/kristy.png",
+    productImageUrl: "/images/products/image-rose.png",
   },
   {
     id: 3,
-    title: "Hamlet",
-    author: "By William Shakespeare.",
-    description: "One of the best selling literature book.",
+    author: "Tinfoild: Tailored tinfoil hats",
+    description: "We already have your measurements and shipping address.",
     url: "#",
-    votes: 9,
+    votes: 13,
     price: 250,
-    submitterAvatarUrl:
-      "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
-    productImageUrl: "https://m.media-amazon.com/images/I/41ogY1y1smL.jpg",
+    submitterAvatarUrl: "/images/avatars/veronika.jpg",
+    productImageUrl: "/images/products/image-steel.png",
   },
   {
     id: 4,
-    title: "Will",
-    author: "By Reed Peter",
-    description: "One of the best selling Motivational book.",
+    author: "Haught or Naught",
+    description: "High-minded or absent-minded? You decide.",
     url: "#",
-    votes: 10,
-    price: 250,
-    submitterAvatarUrl:
-      "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
-    productImageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/911cmGSgcvL._AC_UL254_SR254,254_.jpg",
+    votes: 16,
+    price: 350,
+    submitterAvatarUrl: "/images/avatars/molly.png",
+    productImageUrl: "/images/products/image-yellow.png",
   },
 ];
 
