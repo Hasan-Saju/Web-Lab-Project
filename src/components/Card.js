@@ -14,26 +14,33 @@ function Card() {
   products.sort((a, b) => b.votes - a.votes);
   return (
     <div>
-      {products.map((p, i) => (
+      {products.map((p) => (
         <div>
-          <p>
-            <button onClick={increamentVotes.bind(this, p)}>
-              <font size="5">{p.votes}</font>
-            </button>
-          </p>
           <br></br>
           <img src={p.productImageUrl} width="150" height="200"></img>,
           <p>
             <font size="8">{p.title}</font>
           </p>
           <p>
-            <font size="4">{p.author}</font>
+            <font color="blue" size="4">
+              {p.author}
+            </font>
+          </p>
+          <p>
+            <button
+              backgroud-color="#4CAF50"
+              onClick={increamentVotes.bind(this, p)}
+            >
+              <font size="5">Votes: {p.votes}</font>
+            </button>
           </p>
           <p>
             <font size="4.5">{p.description}</font>
           </p>
           <p>
-            <font size="4">Price: {p.price}$</font>
+            <font color="green" size="4">
+              Price: {p.price}$
+            </font>
           </p>
           <p>
             <font size="4">
