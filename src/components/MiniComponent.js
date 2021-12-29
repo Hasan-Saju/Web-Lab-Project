@@ -1,4 +1,3 @@
-// import react from "react";
 import products from "./ProductList";
 import React from "react";
 
@@ -7,7 +6,6 @@ function MiniComponent() {
   const forceUpdate = React.useCallback(() => updateState({}), []);
 
   function increamentVotes(a) {
-    //console.log(a.votes);
     a.votes = a.votes + 1;
     console.log(a.votes);
     forceUpdate();

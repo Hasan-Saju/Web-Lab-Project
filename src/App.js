@@ -1,12 +1,11 @@
 import "./App.css";
-import products from "./components/ProductList";
 import React from "react";
-import Component from "./components/Component";
+import BookStore from "./components/BookStore";
 
 function App() {
   return (
     <div>
-      <Component />
+      <BookStore />
     </div>
   );
 }
